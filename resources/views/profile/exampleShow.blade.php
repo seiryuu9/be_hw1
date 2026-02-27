@@ -1,4 +1,4 @@
-<div>
+
     <!-- Walk as if you are kissing the Earth with your feet. - Thich Nhat Hanh -->
     <!DOCTYPE html>
     <html lang="sk">
@@ -21,4 +21,4 @@
 
     </body>
     </html>
-</div>
+

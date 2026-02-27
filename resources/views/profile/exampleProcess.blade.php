@@ -1,4 +1,4 @@
-<div>
+
     <!-- An unexamined life is not worth living. - Socrates -->
     <!DOCTYPE html>
     <html lang="sk">
@@ -9,7 +9,14 @@
     </head>
     <body>
 
-    <p><strong>Postupnost:</strong> {{ implode(', ', $data) }}</p>
+    <p>
+        <strong>Postupnost:</strong>
+        <ul>
+            @foreach($data as $cislo)
+                <li>{{ $cislo }}</li>
+            @endforeach
+        </ul>
+    </p>
 
     <p>
         <a href="/example/create">Späť na formulár</a>
@@ -17,4 +24,4 @@
 
     </body>
     </html>
-</div>
+

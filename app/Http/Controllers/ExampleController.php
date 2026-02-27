@@ -30,7 +30,6 @@ class ExampleController extends Controller
             $a[$i] = $a[$i-1] + $a[$i-2];
         }
 
-
         return view('profile.exampleProcess', ['data' => $a]);
     }
 }
